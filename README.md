@@ -1,26 +1,22 @@
 # 🏥 Hospital Patient Analytics — End-to-End Project
 
-An end-to-end data analytics project on hospital patient data, built across
-four different tools to showcase the same analysis from database to
-dashboard: SQL, Excel, Power BI, and Python (Streamlit).
+An end-to-end data analytics project on hospital patient data, built across **four different tools** to showcase the same analysis from database to dashboard: **SQL**, **Excel**, **Power BI**, and **Python (Streamlit)**.
 
-The dataset contains 500 synthetic patient records covering department,
-treatment type, doctor, demographics, treatment cost, hospital stay
-duration, and recovery outcomes.
+The dataset contains 500 synthetic patient records covering department, treatment type, doctor, demographics, treatment cost, hospital stay duration, and recovery outcomes.
+
+---
 
 ## 📁 Project Structure
 
-Hospital-Patient-Analytics-Project/
-├── README.md
-├── SQL_Analysis.sql
-├── Excel_Dashboard.xlsx
-├── PowerBI_Dashboard.pbix
-└── Python_Dashboard/
-    ├── app.py
-    ├── patients.csv
-    └── requirements.txt
+- [`SQL_Analysis.sql`](SQL_Analysis.sql)
+- [`Excel_Dashboard.xlsx`](Excel_Dashboard.xlsx)
+- [`PowerBI_Dashboard.pbix`](PowerBI_Dashboard.pbix)
+- [`Python_Dashboard/`](Python_Dashboard)
+  - [`app.py`](Python_Dashboard/app.py)
+  - [`patients.csv`](Python_Dashboard/patients.csv)
+  - [`requirements.txt`](Python_Dashboard/requirements.txt)
 
-    | File / Folder | Tool | Description |
+| File / Folder | Tool | Description |
 |---|---|---|
 | `SQL_Analysis.sql` | SQL | Database schema, data, and analysis queries (KPIs, group-by charts) |
 | `Excel_Dashboard.xlsx` | Excel | Pivot tables, pivot charts, and a summary dashboard |
