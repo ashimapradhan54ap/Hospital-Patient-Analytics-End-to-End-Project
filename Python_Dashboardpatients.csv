@@ -1,0 +1,501 @@
+patient_id,department,treatment_type,doctor_name,gender,age,treatment_cost,hospital_stay_days,recovery_score,cost_category,age_group
+P001,Neurology,Medication,Dr. R. Singh,Male,37,167119,8,92,High Cost,Adult
+P002,Gastroenterology,Medication,Dr. L. Khan,Female,71,21668,20,85,Low Cost,Senior
+P003,Gastroenterology,Therapy,Dr. M. Patel,Male,3,28596,4,82,Low Cost,Infant / Toddler
+P004,Cardiology,Medication,Dr. L. Khan,Female,42,133591,12,73,High Cost,Adult
+P005,Pediatrics,Therapy,Dr. A. Sharma,Female,73,163495,24,53,High Cost,Senior
+P006,Orthopedics,Observation,Dr. A. Sharma,Male,31,176667,13,73,High Cost,Adult
+P007,Orthopedics,Therapy,Dr. R. Singh,Female,69,22784,24,57,Low Cost,Senior
+P008,Pediatrics,Medication,Dr. A. Sharma,Male,34,131608,4,77,High Cost,Adult
+P009,Gastroenterology,Surgery,Dr. T. Mehta,Female,54,139591,23,95,High Cost,Middle-aged
+P010,Orthopedics,Surgery,Dr. L. Khan,Female,29,166033,27,74,High Cost,Young Adult
+P011,Gastroenterology,Surgery,Dr. L. Khan,Male,9,88354,6,84,High Cost,Child
+P012,Oncology,Therapy,Dr. L. Khan,Female,80,195118,26,59,High Cost,Elderly
+P013,Neurology,Therapy,Dr. M. Patel,Female,50,47354,19,64,Low Cost,Middle-aged
+P014,Cardiology,Therapy,Dr. T. Mehta,Female,82,191304,13,59,High Cost,Elderly
+P015,Oncology,Therapy,Dr. M. Patel,Female,9,189177,15,64,High Cost,Child
+P016,Gastroenterology,Therapy,Dr. T. Mehta,Other,82,98912,7,81,High Cost,Elderly
+P017,Neurology,Medication,Dr. R. Singh,Male,52,104049,6,95,High Cost,Middle-aged
+P018,Neurology,Surgery,Dr. M. Patel,Female,29,36424,14,94,Low Cost,Young Adult
+P019,Neurology,Surgery,Dr. A. Sharma,Female,72,132986,20,57,High Cost,Senior
+P020,Neurology,Observation,Dr. A. Sharma,Other,52,62233,13,92,High Cost,Middle-aged
+P021,Cardiology,Medication,Dr. L. Khan,Male,84,57606,11,59,High Cost,Elderly
+P022,Pediatrics,Surgery,Dr. T. Mehta,Female,25,140610,13,68,High Cost,Young Adult
+P023,Neurology,Observation,Dr. T. Mehta,Male,47,78281,17,78,High Cost,Middle-aged
+P024,Oncology,Medication,Dr. T. Mehta,Female,38,66707,19,80,High Cost,Adult
+P025,Cardiology,Medication,Dr. R. Singh,Male,64,168778,7,90,High Cost,Senior
+P026,Pediatrics,Medication,Dr. A. Sharma,Female,60,61181,18,86,High Cost,Senior
+P027,Orthopedics,Surgery,Dr. L. Khan,Male,48,99996,17,50,High Cost,Middle-aged
+P028,Oncology,Therapy,Dr. T. Mehta,Male,26,26541,15,82,Low Cost,Young Adult
+P029,Orthopedics,Surgery,Dr. T. Mehta,Male,70,29017,3,82,Low Cost,Senior
+P030,Oncology,Therapy,Dr. T. Mehta,Female,25,56689,19,91,High Cost,Young Adult
+P031,Pediatrics,Observation,Dr. M. Patel,Female,75,30104,12,63,Low Cost,Elderly
+P032,Orthopedics,Observation,Dr. T. Mehta,Female,64,186428,29,51,High Cost,Senior
+P033,Neurology,Medication,Dr. R. Singh,Female,43,198390,5,63,High Cost,Adult
+P034,Orthopedics,Surgery,Dr. L. Khan,Female,73,87668,17,56,High Cost,Senior
+P035,Neurology,Surgery,Dr. T. Mehta,Female,58,192660,16,59,High Cost,Middle-aged
+P036,Oncology,Therapy,Dr. M. Patel,Female,10,26986,4,87,Low Cost,Child
+P037,Cardiology,Surgery,Dr. A. Sharma,Female,37,46357,6,91,Low Cost,Adult
+P038,Cardiology,Observation,Dr. L. Khan,Male,46,134575,7,83,High Cost,Middle-aged
+P039,Oncology,Observation,Dr. M. Patel,Male,82,131767,11,82,High Cost,Elderly
+P040,Cardiology,Observation,Dr. L. Khan,Female,53,62796,8,92,High Cost,Middle-aged
+P041,Pediatrics,Surgery,Dr. T. Mehta,Male,19,21765,20,72,Low Cost,Teenager
+P042,Neurology,Observation,Dr. A. Sharma,Male,20,192023,14,79,High Cost,Young Adult
+P043,Cardiology,Therapy,Dr. A. Sharma,Male,24,161475,18,71,High Cost,Young Adult
+P044,Neurology,Therapy,Dr. L. Khan,Female,51,48789,30,92,Low Cost,Middle-aged
+P045,Oncology,Surgery,Dr. L. Khan,Male,78,124093,21,90,High Cost,Elderly
+P046,Gastroenterology,Surgery,Dr. T. Mehta,Female,47,125840,12,74,High Cost,Middle-aged
+P047,Pediatrics,Surgery,Dr. T. Mehta,Female,39,98947,16,81,High Cost,Adult
+P048,Pediatrics,Medication,Dr. A. Sharma,Female,22,52656,4,66,Low Cost,Young Adult
+P049,Oncology,Surgery,Dr. T. Mehta,Female,6,186434,15,52,High Cost,Child
+P050,Orthopedics,Medication,Dr. A. Sharma,Male,15,120240,30,81,High Cost,Teenager
+P051,Oncology,Observation,Dr. T. Mehta,Male,80,39688,26,73,Low Cost,Elderly
+P052,Pediatrics,Surgery,Dr. R. Singh,Male,21,101611,27,89,High Cost,Young Adult
+P053,Gastroenterology,Therapy,Dr. L. Khan,Male,9,190841,7,64,High Cost,Child
+P054,Pediatrics,Medication,Dr. M. Patel,Male,79,134086,3,67,High Cost,Elderly
+P055,Cardiology,Observation,Dr. L. Khan,Male,47,176725,15,85,High Cost,Middle-aged
+P056,Gastroenterology,Surgery,Dr. M. Patel,Male,72,19696,6,93,Low Cost,Senior
+P057,Pediatrics,Medication,Dr. L. Khan,Female,84,150623,5,70,High Cost,Elderly
+P058,Orthopedics,Medication,Dr. A. Sharma,Male,41,127535,22,81,High Cost,Adult
+P059,Cardiology,Observation,Dr. T. Mehta,Male,63,47622,27,91,Low Cost,Senior
+P060,Cardiology,Observation,Dr. R. Singh,Male,22,152274,17,91,High Cost,Young Adult
+P061,Cardiology,Surgery,Dr. R. Singh,Male,28,172026,28,90,High Cost,Young Adult
+P062,Oncology,Observation,Dr. M. Patel,Female,18,91976,21,79,High Cost,Teenager
+P063,Gastroenterology,Observation,Dr. M. Patel,Male,29,184942,4,59,High Cost,Young Adult
+P064,Pediatrics,Observation,Dr. R. Singh,Male,53,192320,3,85,High Cost,Middle-aged
+P065,Neurology,Observation,Dr. L. Khan,Female,9,124494,10,81,High Cost,Child
+P066,Pediatrics,Observation,Dr. M. Patel,Male,61,183650,5,89,High Cost,Senior
+P067,Pediatrics,Observation,Dr. R. Singh,Female,80,63190,28,60,High Cost,Elderly
+P068,Pediatrics,Therapy,Dr. A. Sharma,Female,68,155594,7,52,High Cost,Senior
+P069,Gastroenterology,Therapy,Dr. L. Khan,Female,74,106999,7,88,High Cost,Senior
+P070,Orthopedics,Therapy,Dr. A. Sharma,Male,23,70145,9,68,High Cost,Young Adult
+P071,Neurology,Therapy,Dr. T. Mehta,Female,49,100843,9,66,High Cost,Middle-aged
+P072,Orthopedics,Therapy,Dr. R. Singh,Male,72,161955,10,91,High Cost,Senior
+P073,Neurology,Observation,Dr. L. Khan,Female,53,66194,5,52,High Cost,Middle-aged
+P074,Pediatrics,Therapy,Dr. M. Patel,Male,71,92027,28,76,High Cost,Senior
+P075,Pediatrics,Surgery,Dr. R. Singh,Female,47,35293,9,87,Low Cost,Middle-aged
+P076,Orthopedics,Surgery,Dr. M. Patel,Female,67,146438,7,60,High Cost,Senior
+P077,Oncology,Medication,Dr. A. Sharma,Female,63,162203,11,59,High Cost,Senior
+P078,Neurology,Therapy,Dr. A. Sharma,Male,35,179115,28,54,High Cost,Adult
+P079,Cardiology,Therapy,Dr. R. Singh,Male,9,146103,24,85,High Cost,Child
+P080,Neurology,Surgery,Dr. M. Patel,Female,36,119209,17,78,High Cost,Adult
+P081,Pediatrics,Surgery,Dr. T. Mehta,Female,60,152482,17,67,High Cost,Senior
+P082,Gastroenterology,Therapy,Dr. A. Sharma,Female,25,72067,7,62,High Cost,Young Adult
+P083,Orthopedics,Medication,Dr. R. Singh,Male,3,76800,7,92,High Cost,Infant / Toddler
+P084,Pediatrics,Observation,Dr. T. Mehta,Female,79,190486,16,93,High Cost,Elderly
+P085,Neurology,Medication,Dr. A. Sharma,Male,17,29965,20,57,Low Cost,Teenager
+P086,Pediatrics,Surgery,Dr. L. Khan,Female,26,128566,7,92,High Cost,Young Adult
+P087,Cardiology,Therapy,Dr. T. Mehta,Female,11,80089,4,79,High Cost,Child
+P088,Cardiology,Therapy,Dr. A. Sharma,Male,62,190461,26,65,High Cost,Senior
+P089,Pediatrics,Surgery,Dr. M. Patel,Female,15,98934,6,91,High Cost,Teenager
+P090,Gastroenterology,Therapy,Dr. L. Khan,Female,6,24688,19,91,Low Cost,Child
+P091,Orthopedics,Therapy,Dr. M. Patel,Male,40,54856,13,91,Low Cost,Adult
+P092,Orthopedics,Observation,Dr. L. Khan,Male,28,150371,23,71,High Cost,Young Adult
+P093,Pediatrics,Therapy,Dr. M. Patel,Female,13,187266,5,92,High Cost,Teenager
+P094,Neurology,Medication,Dr. L. Khan,Male,81,84198,16,87,High Cost,Elderly
+P095,Pediatrics,Surgery,Dr. L. Khan,Male,57,55722,4,90,High Cost,Middle-aged
+P096,Gastroenterology,Medication,Dr. T. Mehta,Male,35,186498,14,63,High Cost,Adult
+P097,Pediatrics,Therapy,Dr. T. Mehta,Male,68,162136,27,89,High Cost,Senior
+P098,Neurology,Observation,Dr. A. Sharma,Female,20,26200,13,94,Low Cost,Young Adult
+P099,Orthopedics,Observation,Dr. M. Patel,Female,81,148284,8,68,High Cost,Elderly
+P100,Pediatrics,Observation,Dr. L. Khan,Male,75,92383,14,73,High Cost,Elderly
+P101,Oncology,Therapy,Dr. L. Khan,Male,48,35633,20,89,Low Cost,Middle-aged
+P102,Orthopedics,Surgery,Dr. A. Sharma,Female,85,150104,21,95,High Cost,Elderly
+P103,Gastroenterology,Therapy,Dr. L. Khan,Female,23,48056,16,76,Low Cost,Young Adult
+P104,Neurology,Surgery,Dr. T. Mehta,Female,56,44253,23,85,Low Cost,Middle-aged
+P105,Orthopedics,Medication,Dr. L. Khan,Female,5,138456,10,61,High Cost,Infant / Toddler
+P106,Oncology,Observation,Dr. T. Mehta,Male,58,158525,5,72,High Cost,Middle-aged
+P107,Cardiology,Therapy,Dr. R. Singh,Male,39,38377,4,63,Low Cost,Adult
+P108,Pediatrics,Surgery,Dr. A. Sharma,Male,42,111388,29,64,High Cost,Adult
+P109,Orthopedics,Surgery,Dr. T. Mehta,Male,29,124056,5,68,High Cost,Young Adult
+P110,Neurology,Therapy,Dr. T. Mehta,Male,45,43096,20,61,Low Cost,Middle-aged
+P111,Cardiology,Surgery,Dr. T. Mehta,Female,60,170881,30,82,High Cost,Senior
+P112,Neurology,Therapy,Dr. M. Patel,Male,83,171323,9,68,High Cost,Elderly
+P113,Pediatrics,Surgery,Dr. R. Singh,Male,26,132874,26,77,High Cost,Young Adult
+P114,Neurology,Surgery,Dr. R. Singh,Male,13,169010,11,65,High Cost,Teenager
+P115,Oncology,Medication,Dr. M. Patel,Male,44,193516,15,66,High Cost,Adult
+P116,Gastroenterology,Surgery,Dr. R. Singh,Female,70,164581,6,66,High Cost,Senior
+P117,Gastroenterology,Therapy,Dr. L. Khan,Female,81,41495,16,90,Low Cost,Elderly
+P118,Gastroenterology,Surgery,Dr. M. Patel,Male,81,170672,9,56,High Cost,Elderly
+P119,Cardiology,Surgery,Dr. A. Sharma,Male,73,27657,17,87,Low Cost,Senior
+P120,Neurology,Surgery,Dr. R. Singh,Female,5,107526,27,70,High Cost,Infant / Toddler
+P121,Neurology,Medication,Dr. L. Khan,Male,16,132833,21,78,High Cost,Teenager
+P122,Pediatrics,Therapy,Dr. L. Khan,Female,3,21639,26,70,Low Cost,Infant / Toddler
+P123,Oncology,Surgery,Dr. R. Singh,Female,27,48499,17,95,Low Cost,Young Adult
+P124,Neurology,Observation,Dr. T. Mehta,Male,24,176163,29,65,High Cost,Young Adult
+P125,Oncology,Observation,Dr. M. Patel,Female,44,44469,4,85,Low Cost,Adult
+P126,Oncology,Surgery,Dr. L. Khan,Female,50,183513,24,83,High Cost,Middle-aged
+P127,Cardiology,Therapy,Dr. A. Sharma,Male,46,21466,16,86,Low Cost,Middle-aged
+P128,Oncology,Surgery,Dr. M. Patel,Female,44,79182,7,90,High Cost,Adult
+P129,Cardiology,Surgery,Dr. M. Patel,Female,51,44905,7,85,Low Cost,Middle-aged
+P130,Neurology,Medication,Dr. T. Mehta,Female,81,15079,17,68,Low Cost,Elderly
+P131,Pediatrics,Surgery,Dr. A. Sharma,Female,80,181447,21,93,High Cost,Elderly
+P132,Gastroenterology,Surgery,Dr. L. Khan,Female,34,105643,5,55,High Cost,Adult
+P133,Neurology,Therapy,Dr. T. Mehta,Male,21,108592,16,50,High Cost,Young Adult
+P134,Oncology,Surgery,Dr. A. Sharma,Female,3,38714,13,65,Low Cost,Infant / Toddler
+P135,Orthopedics,Observation,Dr. M. Patel,Female,57,135017,12,69,High Cost,Middle-aged
+P136,Oncology,Therapy,Dr. L. Khan,Female,55,24172,11,59,Low Cost,Middle-aged
+P137,Pediatrics,Surgery,Dr. T. Mehta,Male,5,182375,6,57,High Cost,Infant / Toddler
+P138,Gastroenterology,Observation,Dr. R. Singh,Female,69,113321,26,52,High Cost,Senior
+P139,Gastroenterology,Medication,Dr. A. Sharma,Female,56,174057,19,84,High Cost,Middle-aged
+P140,Cardiology,Medication,Dr. M. Patel,Female,74,52277,8,64,Low Cost,Senior
+P141,Pediatrics,Medication,Dr. M. Patel,Male,62,169943,19,56,High Cost,Senior
+P142,Orthopedics,Therapy,Dr. M. Patel,Female,41,181589,11,89,High Cost,Adult
+P143,Oncology,Surgery,Dr. R. Singh,Male,31,59732,24,62,High Cost,Adult
+P144,Oncology,Therapy,Dr. M. Patel,Female,79,15998,10,75,Low Cost,Elderly
+P145,Gastroenterology,Therapy,Dr. A. Sharma,Female,61,160019,18,73,High Cost,Senior
+P146,Cardiology,Medication,Dr. A. Sharma,Male,68,134766,16,62,High Cost,Senior
+P147,Oncology,Medication,Dr. A. Sharma,Female,31,185566,27,73,High Cost,Adult
+P148,Oncology,Medication,Dr. A. Sharma,Male,19,81712,3,67,High Cost,Teenager
+P149,Pediatrics,Therapy,Dr. L. Khan,Male,56,75558,17,80,High Cost,Middle-aged
+P150,Cardiology,Surgery,Dr. M. Patel,Female,56,80141,12,73,High Cost,Middle-aged
+P151,Oncology,Medication,Dr. T. Mehta,Male,33,39837,19,88,Low Cost,Adult
+P152,Gastroenterology,Surgery,Dr. A. Sharma,Female,52,49814,25,61,Low Cost,Middle-aged
+P153,Pediatrics,Surgery,Dr. M. Patel,Male,82,41064,15,79,Low Cost,Elderly
+P154,Oncology,Therapy,Dr. M. Patel,Female,40,57384,18,52,High Cost,Adult
+P155,Neurology,Therapy,Dr. T. Mehta,Female,38,24188,25,56,Low Cost,Adult
+P156,Cardiology,Therapy,Dr. M. Patel,Male,38,24945,20,66,Low Cost,Adult
+P157,Orthopedics,Surgery,Dr. R. Singh,Female,39,108824,16,54,High Cost,Adult
+P158,Pediatrics,Medication,Dr. L. Khan,Female,41,193593,23,95,High Cost,Adult
+P159,Orthopedics,Therapy,Dr. A. Sharma,Female,77,107726,8,83,High Cost,Elderly
+P160,Orthopedics,Surgery,Dr. A. Sharma,Male,76,199134,24,84,High Cost,Elderly
+P161,Gastroenterology,Surgery,Dr. L. Khan,Female,19,109563,16,75,High Cost,Teenager
+P162,Orthopedics,Observation,Dr. L. Khan,Male,13,162801,24,87,High Cost,Teenager
+P163,Oncology,Therapy,Dr. A. Sharma,Male,65,175996,25,93,High Cost,Senior
+P164,Pediatrics,Medication,Dr. A. Sharma,Female,60,33596,20,74,Low Cost,Senior
+P165,Gastroenterology,Medication,Dr. T. Mehta,Male,43,97298,5,92,High Cost,Adult
+P166,Gastroenterology,Observation,Dr. M. Patel,Male,18,99652,9,77,High Cost,Teenager
+P167,Gastroenterology,Surgery,Dr. T. Mehta,Female,41,85347,11,54,High Cost,Adult
+P168,Neurology,Therapy,Dr. L. Khan,Male,57,48535,6,77,Low Cost,Middle-aged
+P169,Cardiology,Surgery,Dr. R. Singh,Female,18,125819,12,82,High Cost,Teenager
+P170,Orthopedics,Surgery,Dr. M. Patel,Male,38,87649,12,72,High Cost,Adult
+P171,Cardiology,Observation,Dr. R. Singh,Female,71,16843,4,81,Low Cost,Senior
+P172,Pediatrics,Medication,Dr. R. Singh,Female,52,129665,23,72,High Cost,Middle-aged
+P173,Neurology,Observation,Dr. L. Khan,Female,31,19680,29,70,Low Cost,Adult
+P174,Neurology,Therapy,Dr. A. Sharma,Female,81,48117,21,67,Low Cost,Elderly
+P175,Cardiology,Surgery,Dr. T. Mehta,Female,36,90628,27,59,High Cost,Adult
+P176,Gastroenterology,Observation,Dr. T. Mehta,Female,33,22868,5,53,Low Cost,Adult
+P177,Gastroenterology,Observation,Dr. R. Singh,Female,49,159122,23,74,High Cost,Middle-aged
+P178,Gastroenterology,Observation,Dr. L. Khan,Female,42,71782,9,77,High Cost,Adult
+P179,Oncology,Therapy,Dr. L. Khan,Female,32,70482,21,55,High Cost,Adult
+P180,Neurology,Medication,Dr. R. Singh,Female,77,117489,6,77,High Cost,Elderly
+P181,Cardiology,Observation,Dr. A. Sharma,Male,33,161902,27,50,High Cost,Adult
+P182,Cardiology,Surgery,Dr. R. Singh,Male,51,20304,17,80,Low Cost,Middle-aged
+P183,Neurology,Surgery,Dr. A. Sharma,Other,6,90802,7,55,High Cost,Child
+P184,Gastroenterology,Therapy,Dr. T. Mehta,Female,21,40710,18,89,Low Cost,Young Adult
+P185,Pediatrics,Medication,Dr. T. Mehta,Female,66,123295,9,54,High Cost,Senior
+P186,Gastroenterology,Surgery,Dr. R. Singh,Female,60,161372,14,74,High Cost,Senior
+P187,Orthopedics,Observation,Dr. T. Mehta,Male,8,101508,8,86,High Cost,Child
+P188,Neurology,Medication,Dr. L. Khan,Male,60,153453,19,76,High Cost,Senior
+P189,Neurology,Therapy,Dr. T. Mehta,Female,29,184791,19,82,High Cost,Young Adult
+P190,Gastroenterology,Medication,Dr. R. Singh,Male,81,121064,23,71,High Cost,Elderly
+P191,Cardiology,Observation,Dr. A. Sharma,Female,60,59983,15,86,High Cost,Senior
+P192,Pediatrics,Observation,Dr. M. Patel,Male,36,153347,8,92,High Cost,Adult
+P193,Oncology,Therapy,Dr. T. Mehta,Female,3,36600,17,87,Low Cost,Infant / Toddler
+P194,Orthopedics,Medication,Dr. L. Khan,Male,46,134063,3,67,High Cost,Middle-aged
+P195,Gastroenterology,Surgery,Dr. R. Singh,Male,28,135445,12,80,High Cost,Young Adult
+P196,Gastroenterology,Observation,Dr. M. Patel,Male,73,101529,19,69,High Cost,Senior
+P197,Cardiology,Surgery,Dr. L. Khan,Male,31,168366,8,76,High Cost,Adult
+P198,Neurology,Surgery,Dr. A. Sharma,Male,36,28716,29,73,Low Cost,Adult
+P199,Orthopedics,Medication,Dr. M. Patel,Male,35,91050,22,65,High Cost,Adult
+P200,Orthopedics,Therapy,Dr. A. Sharma,Female,39,124862,23,88,High Cost,Adult
+P201,Oncology,Observation,Dr. L. Khan,Female,29,116528,23,53,High Cost,Young Adult
+P202,Pediatrics,Medication,Dr. L. Khan,Female,30,189376,14,62,High Cost,Adult
+P203,Gastroenterology,Therapy,Dr. M. Patel,Female,53,82672,7,58,High Cost,Middle-aged
+P204,Orthopedics,Therapy,Dr. T. Mehta,Male,12,32701,30,94,Low Cost,Child
+P205,Pediatrics,Surgery,Dr. L. Khan,Female,45,60523,26,74,High Cost,Middle-aged
+P206,Neurology,Observation,Dr. M. Patel,Female,72,139196,15,51,High Cost,Senior
+P207,Orthopedics,Surgery,Dr. A. Sharma,Male,52,110991,7,51,High Cost,Middle-aged
+P208,Orthopedics,Surgery,Dr. R. Singh,Female,54,178064,7,67,High Cost,Middle-aged
+P209,Neurology,Medication,Dr. R. Singh,Other,49,31919,18,94,Low Cost,Middle-aged
+P210,Gastroenterology,Therapy,Dr. A. Sharma,Male,70,84569,23,55,High Cost,Senior
+P211,Orthopedics,Observation,Dr. L. Khan,Male,40,124989,10,50,High Cost,Adult
+P212,Gastroenterology,Observation,Dr. A. Sharma,Male,84,99429,4,71,High Cost,Elderly
+P213,Cardiology,Surgery,Dr. M. Patel,Male,1,52801,17,90,Low Cost,Infant / Toddler
+P214,Gastroenterology,Observation,Dr. M. Patel,Male,46,51871,20,82,Low Cost,Middle-aged
+P215,Neurology,Observation,Dr. T. Mehta,Female,63,110071,14,55,High Cost,Senior
+P216,Gastroenterology,Observation,Dr. A. Sharma,Male,19,192248,28,90,High Cost,Teenager
+P217,Neurology,Surgery,Dr. R. Singh,Male,56,33514,18,68,Low Cost,Middle-aged
+P218,Cardiology,Therapy,Dr. T. Mehta,Male,50,130778,21,91,High Cost,Middle-aged
+P219,Gastroenterology,Surgery,Dr. M. Patel,Male,11,179122,17,84,High Cost,Child
+P220,Pediatrics,Surgery,Dr. A. Sharma,Male,39,86154,4,69,High Cost,Adult
+P221,Pediatrics,Observation,Dr. A. Sharma,Male,44,39712,10,55,Low Cost,Adult
+P222,Neurology,Therapy,Dr. M. Patel,Male,35,51011,5,64,Low Cost,Adult
+P223,Pediatrics,Therapy,Dr. T. Mehta,Male,47,49603,18,83,Low Cost,Middle-aged
+P224,Gastroenterology,Surgery,Dr. T. Mehta,Female,82,22764,27,50,Low Cost,Elderly
+P225,Gastroenterology,Therapy,Dr. R. Singh,Female,32,84984,27,50,High Cost,Adult
+P226,Gastroenterology,Observation,Dr. L. Khan,Male,84,101908,23,52,High Cost,Elderly
+P227,Orthopedics,Therapy,Dr. R. Singh,Female,19,70118,21,56,High Cost,Teenager
+P228,Cardiology,Therapy,Dr. A. Sharma,Male,8,194831,3,89,High Cost,Child
+P229,Neurology,Observation,Dr. L. Khan,Male,19,170565,23,78,High Cost,Teenager
+P230,Gastroenterology,Medication,Dr. T. Mehta,Male,47,19586,5,54,Low Cost,Middle-aged
+P231,Oncology,Therapy,Dr. A. Sharma,Male,59,108498,4,52,High Cost,Middle-aged
+P232,Pediatrics,Therapy,Dr. L. Khan,Male,68,46886,20,54,Low Cost,Senior
+P233,Pediatrics,Observation,Dr. A. Sharma,Female,67,143991,3,58,High Cost,Senior
+P234,Orthopedics,Medication,Dr. R. Singh,Male,32,189712,20,80,High Cost,Adult
+P235,Neurology,Observation,Dr. T. Mehta,Male,30,134411,5,72,High Cost,Adult
+P236,Orthopedics,Observation,Dr. T. Mehta,Female,72,107074,29,84,High Cost,Senior
+P237,Oncology,Therapy,Dr. T. Mehta,Female,3,27322,11,91,Low Cost,Infant / Toddler
+P238,Pediatrics,Surgery,Dr. R. Singh,Male,29,22303,3,51,Low Cost,Young Adult
+P239,Orthopedics,Surgery,Dr. A. Sharma,Female,32,97225,4,90,High Cost,Adult
+P240,Oncology,Surgery,Dr. M. Patel,Female,70,126226,27,89,High Cost,Senior
+P241,Cardiology,Therapy,Dr. T. Mehta,Male,11,106669,19,68,High Cost,Child
+P242,Neurology,Surgery,Dr. R. Singh,Male,46,168712,3,60,High Cost,Middle-aged
+P243,Pediatrics,Medication,Dr. T. Mehta,Female,13,66113,6,94,High Cost,Teenager
+P244,Pediatrics,Medication,Dr. A. Sharma,Female,74,86248,19,77,High Cost,Senior
+P245,Cardiology,Medication,Dr. M. Patel,Male,27,97507,3,59,High Cost,Young Adult
+P246,Orthopedics,Observation,Dr. T. Mehta,Male,71,197116,7,89,High Cost,Senior
+P247,Pediatrics,Medication,Dr. M. Patel,Female,75,131614,22,87,High Cost,Elderly
+P248,Orthopedics,Therapy,Dr. T. Mehta,Male,47,91199,18,86,High Cost,Middle-aged
+P249,Pediatrics,Therapy,Dr. R. Singh,Male,21,94174,26,53,High Cost,Young Adult
+P250,Cardiology,Medication,Dr. T. Mehta,Male,61,122112,16,81,High Cost,Senior
+P251,Cardiology,Medication,Dr. M. Patel,Male,52,89154,14,77,High Cost,Middle-aged
+P252,Cardiology,Observation,Dr. R. Singh,Female,39,87295,12,64,High Cost,Adult
+P253,Oncology,Therapy,Dr. R. Singh,Male,79,123633,20,73,High Cost,Elderly
+P254,Cardiology,Therapy,Dr. M. Patel,Female,45,196720,22,68,High Cost,Middle-aged
+P255,Cardiology,Surgery,Dr. T. Mehta,Female,9,164337,4,90,High Cost,Child
+P256,Neurology,Therapy,Dr. M. Patel,Male,37,44710,18,56,Low Cost,Adult
+P257,Orthopedics,Observation,Dr. M. Patel,Male,4,147847,28,64,High Cost,Infant / Toddler
+P258,Gastroenterology,Therapy,Dr. M. Patel,Female,45,130243,9,86,High Cost,Middle-aged
+P259,Pediatrics,Surgery,Dr. A. Sharma,Male,21,131318,12,89,High Cost,Young Adult
+P260,Orthopedics,Medication,Dr. T. Mehta,Male,6,89925,17,62,High Cost,Child
+P261,Gastroenterology,Observation,Dr. M. Patel,Male,64,43323,12,66,Low Cost,Senior
+P262,Neurology,Medication,Dr. R. Singh,Female,26,152107,12,75,High Cost,Young Adult
+P263,Gastroenterology,Therapy,Dr. R. Singh,Female,71,24196,27,75,Low Cost,Senior
+P264,Gastroenterology,Observation,Dr. R. Singh,Male,82,79037,5,79,High Cost,Elderly
+P265,Oncology,Observation,Dr. L. Khan,Female,3,22907,15,68,Low Cost,Infant / Toddler
+P266,Pediatrics,Therapy,Dr. L. Khan,Male,41,26804,9,89,Low Cost,Adult
+P267,Orthopedics,Observation,Dr. M. Patel,Male,71,102097,24,75,High Cost,Senior
+P268,Neurology,Therapy,Dr. T. Mehta,Male,68,197905,6,86,High Cost,Senior
+P269,Pediatrics,Medication,Dr. L. Khan,Male,72,73172,28,75,High Cost,Senior
+P270,Pediatrics,Surgery,Dr. L. Khan,Female,56,102203,12,53,High Cost,Middle-aged
+P271,Orthopedics,Medication,Dr. L. Khan,Female,64,171129,6,67,High Cost,Senior
+P272,Pediatrics,Observation,Dr. R. Singh,Male,48,79889,22,73,High Cost,Middle-aged
+P273,Cardiology,Surgery,Dr. M. Patel,Female,64,49311,30,86,Low Cost,Senior
+P274,Orthopedics,Therapy,Dr. A. Sharma,Other,78,52130,17,53,Low Cost,Elderly
+P275,Orthopedics,Observation,Dr. A. Sharma,Male,58,189802,11,86,High Cost,Middle-aged
+P276,Oncology,Observation,Dr. A. Sharma,Female,33,48208,22,85,Low Cost,Adult
+P277,Gastroenterology,Surgery,Dr. T. Mehta,Male,79,61949,24,64,High Cost,Elderly
+P278,Pediatrics,Therapy,Dr. R. Singh,Female,45,144042,10,55,High Cost,Middle-aged
+P279,Pediatrics,Surgery,Dr. T. Mehta,Male,71,147012,25,62,High Cost,Senior
+P280,Gastroenterology,Observation,Dr. T. Mehta,Female,48,151193,12,63,High Cost,Middle-aged
+P281,Orthopedics,Observation,Dr. T. Mehta,Female,77,117921,11,84,High Cost,Elderly
+P282,Orthopedics,Therapy,Dr. M. Patel,Male,61,147584,12,83,High Cost,Senior
+P283,Cardiology,Medication,Dr. A. Sharma,Female,1,16596,20,76,Low Cost,Infant / Toddler
+P284,Orthopedics,Therapy,Dr. A. Sharma,Male,48,80746,21,90,High Cost,Middle-aged
+P285,Oncology,Observation,Dr. M. Patel,Male,70,95531,22,60,High Cost,Senior
+P286,Neurology,Therapy,Dr. T. Mehta,Male,41,173028,10,52,High Cost,Adult
+P287,Orthopedics,Surgery,Dr. R. Singh,Female,80,59942,11,60,High Cost,Elderly
+P288,Gastroenterology,Surgery,Dr. T. Mehta,Male,85,179863,24,86,High Cost,Elderly
+P289,Oncology,Surgery,Dr. R. Singh,Male,33,74137,11,78,High Cost,Adult
+P290,Orthopedics,Surgery,Dr. R. Singh,Female,8,86710,6,83,High Cost,Child
+P291,Gastroenterology,Surgery,Dr. T. Mehta,Female,21,139631,24,66,High Cost,Young Adult
+P292,Cardiology,Medication,Dr. T. Mehta,Female,33,181989,16,66,High Cost,Adult
+P293,Oncology,Observation,Dr. R. Singh,Female,5,196340,8,76,High Cost,Infant / Toddler
+P294,Cardiology,Observation,Dr. R. Singh,Female,53,166526,28,95,High Cost,Middle-aged
+P295,Orthopedics,Surgery,Dr. L. Khan,Male,78,46193,6,93,Low Cost,Elderly
+P296,Pediatrics,Surgery,Dr. M. Patel,Female,16,50419,7,89,Low Cost,Teenager
+P297,Orthopedics,Surgery,Dr. R. Singh,Female,74,31182,18,83,Low Cost,Senior
+P298,Gastroenterology,Observation,Dr. A. Sharma,Female,64,60013,7,74,High Cost,Senior
+P299,Orthopedics,Therapy,Dr. R. Singh,Male,59,160276,18,75,High Cost,Middle-aged
+P300,Orthopedics,Therapy,Dr. L. Khan,Male,33,28980,16,75,Low Cost,Adult
+P301,Oncology,Observation,Dr. M. Patel,Female,32,77683,6,50,High Cost,Adult
+P302,Pediatrics,Therapy,Dr. R. Singh,Female,76,51359,30,52,Low Cost,Elderly
+P303,Neurology,Medication,Dr. L. Khan,Male,23,78579,20,67,High Cost,Young Adult
+P304,Neurology,Observation,Dr. A. Sharma,Female,81,90520,15,92,High Cost,Elderly
+P305,Orthopedics,Therapy,Dr. T. Mehta,Female,24,131871,6,92,High Cost,Young Adult
+P306,Orthopedics,Observation,Dr. A. Sharma,Male,64,85240,5,75,High Cost,Senior
+P307,Neurology,Observation,Dr. R. Singh,Male,23,31257,6,65,Low Cost,Young Adult
+P308,Gastroenterology,Therapy,Dr. A. Sharma,Female,9,35764,8,94,Low Cost,Child
+P309,Oncology,Therapy,Dr. R. Singh,Male,19,80727,10,92,High Cost,Teenager
+P310,Orthopedics,Therapy,Dr. M. Patel,Male,40,195050,12,89,High Cost,Adult
+P311,Gastroenterology,Therapy,Dr. L. Khan,Female,85,112607,25,85,High Cost,Elderly
+P312,Cardiology,Observation,Dr. R. Singh,Male,3,47718,19,53,Low Cost,Infant / Toddler
+P313,Pediatrics,Medication,Dr. T. Mehta,Male,49,106056,19,57,High Cost,Middle-aged
+P314,Pediatrics,Observation,Dr. A. Sharma,Male,69,40213,24,72,Low Cost,Senior
+P315,Orthopedics,Therapy,Dr. M. Patel,Female,70,146411,27,82,High Cost,Senior
+P316,Pediatrics,Therapy,Dr. A. Sharma,Female,20,26271,18,72,Low Cost,Young Adult
+P317,Pediatrics,Surgery,Dr. T. Mehta,Male,3,162199,15,66,High Cost,Infant / Toddler
+P318,Pediatrics,Surgery,Dr. L. Khan,Male,62,48531,15,83,Low Cost,Senior
+P319,Oncology,Surgery,Dr. T. Mehta,Other,12,128536,10,93,High Cost,Child
+P320,Orthopedics,Therapy,Dr. R. Singh,Female,58,177455,25,62,High Cost,Middle-aged
+P321,Cardiology,Surgery,Dr. L. Khan,Female,31,157570,7,60,High Cost,Adult
+P322,Pediatrics,Observation,Dr. A. Sharma,Male,53,86882,7,73,High Cost,Middle-aged
+P323,Neurology,Surgery,Dr. T. Mehta,Female,2,191016,17,55,High Cost,Infant / Toddler
+P324,Orthopedics,Therapy,Dr. A. Sharma,Female,17,46050,11,86,Low Cost,Teenager
+P325,Oncology,Observation,Dr. R. Singh,Female,2,99522,21,68,High Cost,Infant / Toddler
+P326,Pediatrics,Medication,Dr. R. Singh,Male,44,24046,11,68,Low Cost,Adult
+P327,Neurology,Surgery,Dr. L. Khan,Male,24,64542,7,85,High Cost,Young Adult
+P328,Gastroenterology,Medication,Dr. R. Singh,Other,36,135054,20,52,High Cost,Adult
+P329,Gastroenterology,Therapy,Dr. M. Patel,Female,55,15590,27,82,Low Cost,Middle-aged
+P330,Neurology,Surgery,Dr. A. Sharma,Female,43,188425,26,88,High Cost,Adult
+P331,Cardiology,Observation,Dr. T. Mehta,Female,77,104037,11,67,High Cost,Elderly
+P332,Cardiology,Therapy,Dr. M. Patel,Male,85,167322,19,81,High Cost,Elderly
+P333,Cardiology,Therapy,Dr. A. Sharma,Female,11,112393,6,61,High Cost,Child
+P334,Gastroenterology,Medication,Dr. M. Patel,Male,67,184096,21,69,High Cost,Senior
+P335,Neurology,Therapy,Dr. L. Khan,Male,62,190730,21,86,High Cost,Senior
+P336,Oncology,Therapy,Dr. A. Sharma,Male,56,25263,26,65,Low Cost,Middle-aged
+P337,Neurology,Medication,Dr. R. Singh,Male,19,187719,9,84,High Cost,Teenager
+P338,Orthopedics,Medication,Dr. T. Mehta,Female,56,181256,30,83,High Cost,Middle-aged
+P339,Pediatrics,Therapy,Dr. A. Sharma,Female,47,57246,10,70,High Cost,Middle-aged
+P340,Orthopedics,Medication,Dr. T. Mehta,Female,82,52888,17,65,Low Cost,Elderly
+P341,Neurology,Therapy,Dr. A. Sharma,Female,23,193694,20,75,High Cost,Young Adult
+P342,Neurology,Observation,Dr. A. Sharma,Male,1,21928,6,91,Low Cost,Infant / Toddler
+P343,Pediatrics,Surgery,Dr. M. Patel,Female,85,119629,9,78,High Cost,Elderly
+P344,Oncology,Surgery,Dr. R. Singh,Male,15,81778,8,66,High Cost,Teenager
+P345,Orthopedics,Medication,Dr. M. Patel,Other,61,26556,12,54,Low Cost,Senior
+P346,Oncology,Observation,Dr. A. Sharma,Female,48,157592,20,74,High Cost,Middle-aged
+P347,Orthopedics,Surgery,Dr. A. Sharma,Male,24,181531,6,67,High Cost,Young Adult
+P348,Pediatrics,Medication,Dr. A. Sharma,Male,37,58766,13,69,High Cost,Adult
+P349,Cardiology,Therapy,Dr. R. Singh,Male,26,19771,28,61,Low Cost,Young Adult
+P350,Neurology,Therapy,Dr. A. Sharma,Male,22,47326,19,86,Low Cost,Young Adult
+P351,Neurology,Medication,Dr. R. Singh,Male,43,152821,9,65,High Cost,Adult
+P352,Gastroenterology,Medication,Dr. L. Khan,Male,10,149923,17,58,High Cost,Child
+P353,Pediatrics,Therapy,Dr. T. Mehta,Male,59,134074,18,91,High Cost,Middle-aged
+P354,Neurology,Surgery,Dr. M. Patel,Female,35,159259,8,69,High Cost,Adult
+P355,Orthopedics,Therapy,Dr. L. Khan,Female,14,181933,9,74,High Cost,Teenager
+P356,Gastroenterology,Surgery,Dr. T. Mehta,Male,46,156183,14,54,High Cost,Middle-aged
+P357,Oncology,Observation,Dr. L. Khan,Male,29,23318,23,94,Low Cost,Young Adult
+P358,Oncology,Therapy,Dr. M. Patel,Male,65,153155,26,74,High Cost,Senior
+P359,Neurology,Observation,Dr. A. Sharma,Female,58,106069,25,54,High Cost,Middle-aged
+P360,Oncology,Therapy,Dr. R. Singh,Female,14,181631,9,90,High Cost,Teenager
+P361,Pediatrics,Surgery,Dr. R. Singh,Female,16,61847,24,60,High Cost,Teenager
+P362,Oncology,Medication,Dr. T. Mehta,Female,50,87560,17,69,High Cost,Middle-aged
+P363,Oncology,Medication,Dr. A. Sharma,Female,5,144599,5,94,High Cost,Infant / Toddler
+P364,Orthopedics,Medication,Dr. A. Sharma,Male,54,79495,6,80,High Cost,Middle-aged
+P365,Cardiology,Surgery,Dr. M. Patel,Female,80,169243,9,78,High Cost,Elderly
+P366,Pediatrics,Surgery,Dr. M. Patel,Male,64,149582,22,70,High Cost,Senior
+P367,Neurology,Observation,Dr. R. Singh,Male,60,191088,17,85,High Cost,Senior
+P368,Neurology,Therapy,Dr. T. Mehta,Male,85,41379,3,93,Low Cost,Elderly
+P369,Cardiology,Medication,Dr. T. Mehta,Female,48,23602,21,89,Low Cost,Middle-aged
+P370,Gastroenterology,Medication,Dr. M. Patel,Female,57,67873,26,60,High Cost,Middle-aged
+P371,Cardiology,Surgery,Dr. A. Sharma,Female,49,76814,30,68,High Cost,Middle-aged
+P372,Neurology,Observation,Dr. M. Patel,Female,30,131142,6,58,High Cost,Adult
+P373,Orthopedics,Surgery,Dr. L. Khan,Male,67,33841,18,93,Low Cost,Senior
+P374,Oncology,Observation,Dr. R. Singh,Female,50,67378,24,83,High Cost,Middle-aged
+P375,Orthopedics,Observation,Dr. T. Mehta,Male,49,94732,25,86,High Cost,Middle-aged
+P376,Orthopedics,Therapy,Dr. M. Patel,Female,77,76004,5,79,High Cost,Elderly
+P377,Pediatrics,Therapy,Dr. A. Sharma,Female,45,32654,21,61,Low Cost,Middle-aged
+P378,Orthopedics,Therapy,Dr. L. Khan,Female,58,175689,8,51,High Cost,Middle-aged
+P379,Neurology,Medication,Dr. A. Sharma,Female,29,81297,19,67,High Cost,Young Adult
+P380,Cardiology,Observation,Dr. M. Patel,Male,66,139488,29,79,High Cost,Senior
+P381,Gastroenterology,Medication,Dr. T. Mehta,Female,63,156933,9,64,High Cost,Senior
+P382,Orthopedics,Observation,Dr. M. Patel,Female,32,90006,21,79,High Cost,Adult
+P383,Gastroenterology,Medication,Dr. T. Mehta,Male,79,156222,10,58,High Cost,Elderly
+P384,Cardiology,Surgery,Dr. T. Mehta,Female,43,100958,4,88,High Cost,Adult
+P385,Cardiology,Therapy,Dr. A. Sharma,Female,83,120134,21,93,High Cost,Elderly
+P386,Cardiology,Medication,Dr. A. Sharma,Male,76,140622,11,79,High Cost,Elderly
+P387,Orthopedics,Medication,Dr. M. Patel,Male,54,97246,8,55,High Cost,Middle-aged
+P388,Oncology,Medication,Dr. A. Sharma,Female,57,27151,16,52,Low Cost,Middle-aged
+P389,Neurology,Therapy,Dr. T. Mehta,Female,26,67948,13,50,High Cost,Young Adult
+P390,Orthopedics,Surgery,Dr. T. Mehta,Female,60,188150,18,87,High Cost,Senior
+P391,Neurology,Observation,Dr. M. Patel,Female,20,47930,22,58,Low Cost,Young Adult
+P392,Oncology,Therapy,Dr. A. Sharma,Male,50,128001,29,80,High Cost,Middle-aged
+P393,Oncology,Medication,Dr. L. Khan,Female,60,136739,5,81,High Cost,Senior
+P394,Oncology,Observation,Dr. R. Singh,Male,20,148473,9,94,High Cost,Young Adult
+P395,Gastroenterology,Therapy,Dr. M. Patel,Female,48,102470,9,86,High Cost,Middle-aged
+P396,Neurology,Surgery,Dr. R. Singh,Female,81,83830,28,60,High Cost,Elderly
+P397,Neurology,Surgery,Dr. R. Singh,Male,31,83260,19,63,High Cost,Adult
+P398,Oncology,Surgery,Dr. M. Patel,Male,70,196005,4,77,High Cost,Senior
+P399,Neurology,Observation,Dr. L. Khan,Female,9,61841,3,85,High Cost,Child
+P400,Orthopedics,Observation,Dr. A. Sharma,Male,36,97651,22,84,High Cost,Adult
+P401,Cardiology,Observation,Dr. L. Khan,Male,84,144520,3,95,High Cost,Elderly
+P402,Oncology,Surgery,Dr. L. Khan,Female,39,97644,17,56,High Cost,Adult
+P403,Cardiology,Surgery,Dr. L. Khan,Male,33,19450,6,95,Low Cost,Adult
+P404,Orthopedics,Therapy,Dr. M. Patel,Male,79,120074,9,54,High Cost,Elderly
+P405,Cardiology,Surgery,Dr. R. Singh,Female,12,149639,8,88,High Cost,Child
+P406,Cardiology,Observation,Dr. M. Patel,Female,2,59583,30,88,High Cost,Infant / Toddler
+P407,Orthopedics,Surgery,Dr. A. Sharma,Male,43,146936,9,77,High Cost,Adult
+P408,Gastroenterology,Medication,Dr. R. Singh,Female,42,135598,15,57,High Cost,Adult
+P409,Cardiology,Therapy,Dr. M. Patel,Female,21,199301,28,82,High Cost,Young Adult
+P410,Gastroenterology,Observation,Dr. R. Singh,Male,65,118731,19,61,High Cost,Senior
+P411,Gastroenterology,Therapy,Dr. A. Sharma,Female,75,86217,24,72,High Cost,Elderly
+P412,Cardiology,Medication,Dr. M. Patel,Male,61,128287,10,78,High Cost,Senior
+P413,Orthopedics,Therapy,Dr. L. Khan,Female,66,33292,24,60,Low Cost,Senior
+P414,Neurology,Observation,Dr. L. Khan,Male,31,147520,18,64,High Cost,Adult
+P415,Pediatrics,Observation,Dr. L. Khan,Female,17,133252,8,82,High Cost,Teenager
+P416,Orthopedics,Medication,Dr. M. Patel,Male,32,80181,12,60,High Cost,Adult
+P417,Gastroenterology,Therapy,Dr. R. Singh,Male,78,131595,6,85,High Cost,Elderly
+P418,Cardiology,Therapy,Dr. M. Patel,Female,78,33183,10,72,Low Cost,Elderly
+P419,Cardiology,Surgery,Dr. R. Singh,Male,85,132055,21,50,High Cost,Elderly
+P420,Neurology,Surgery,Dr. A. Sharma,Male,29,24692,25,64,Low Cost,Young Adult
+P421,Cardiology,Surgery,Dr. A. Sharma,Female,42,193775,10,95,High Cost,Adult
+P422,Pediatrics,Medication,Dr. L. Khan,Female,17,161448,19,80,High Cost,Teenager
+P423,Orthopedics,Surgery,Dr. L. Khan,Female,18,118508,14,92,High Cost,Teenager
+P424,Pediatrics,Medication,Dr. R. Singh,Male,66,75097,17,53,High Cost,Senior
+P425,Oncology,Observation,Dr. R. Singh,Male,40,69677,4,58,High Cost,Adult
+P426,Neurology,Medication,Dr. T. Mehta,Female,55,33295,17,69,Low Cost,Middle-aged
+P427,Cardiology,Therapy,Dr. A. Sharma,Female,67,67264,26,62,High Cost,Senior
+P428,Orthopedics,Surgery,Dr. M. Patel,Male,8,122076,30,65,High Cost,Child
+P429,Orthopedics,Medication,Dr. T. Mehta,Female,68,129818,11,70,High Cost,Senior
+P430,Gastroenterology,Therapy,Dr. M. Patel,Female,45,183926,15,53,High Cost,Middle-aged
+P431,Oncology,Therapy,Dr. L. Khan,Female,31,27557,15,89,Low Cost,Adult
+P432,Cardiology,Surgery,Dr. R. Singh,Male,56,164723,25,70,High Cost,Middle-aged
+P433,Orthopedics,Observation,Dr. R. Singh,Female,8,148321,14,69,High Cost,Child
+P434,Gastroenterology,Observation,Dr. T. Mehta,Female,6,23641,29,74,Low Cost,Child
+P435,Oncology,Observation,Dr. A. Sharma,Female,35,22930,20,74,Low Cost,Adult
+P436,Cardiology,Therapy,Dr. L. Khan,Male,70,57077,5,51,High Cost,Senior
+P437,Oncology,Surgery,Dr. A. Sharma,Male,2,121083,18,79,High Cost,Infant / Toddler
+P438,Cardiology,Observation,Dr. M. Patel,Other,57,190174,18,64,High Cost,Middle-aged
+P439,Neurology,Surgery,Dr. A. Sharma,Female,41,198865,11,86,High Cost,Adult
+P440,Pediatrics,Therapy,Dr. M. Patel,Female,9,125639,19,53,High Cost,Child
+P441,Pediatrics,Surgery,Dr. R. Singh,Male,40,86768,15,79,High Cost,Adult
+P442,Pediatrics,Surgery,Dr. A. Sharma,Male,78,108547,8,80,High Cost,Elderly
+P443,Oncology,Medication,Dr. A. Sharma,Female,1,68623,25,50,High Cost,Infant / Toddler
+P444,Cardiology,Surgery,Dr. R. Singh,Male,48,86251,22,58,High Cost,Middle-aged
+P445,Neurology,Therapy,Dr. A. Sharma,Male,66,57254,22,93,High Cost,Senior
+P446,Pediatrics,Observation,Dr. M. Patel,Male,71,196528,14,60,High Cost,Senior
+P447,Neurology,Medication,Dr. R. Singh,Male,25,36619,27,60,Low Cost,Young Adult
+P448,Cardiology,Therapy,Dr. T. Mehta,Male,78,108284,25,67,High Cost,Elderly
+P449,Orthopedics,Therapy,Dr. T. Mehta,Female,47,189668,10,76,High Cost,Middle-aged
+P450,Orthopedics,Medication,Dr. T. Mehta,Female,55,55346,15,74,High Cost,Middle-aged
+P451,Orthopedics,Therapy,Dr. L. Khan,Female,4,75776,21,65,High Cost,Infant / Toddler
+P452,Cardiology,Observation,Dr. T. Mehta,Male,13,128289,19,77,High Cost,Teenager
+P453,Pediatrics,Observation,Dr. R. Singh,Female,6,120836,5,53,High Cost,Child
+P454,Gastroenterology,Medication,Dr. M. Patel,Female,18,52805,29,87,Low Cost,Teenager
+P455,Cardiology,Observation,Dr. R. Singh,Male,81,154643,19,58,High Cost,Elderly
+P456,Orthopedics,Observation,Dr. M. Patel,Female,19,25186,26,75,Low Cost,Teenager
+P457,Cardiology,Medication,Dr. T. Mehta,Female,30,72734,14,68,High Cost,Adult
+P458,Orthopedics,Surgery,Dr. A. Sharma,Male,58,163009,4,71,High Cost,Middle-aged
+P459,Orthopedics,Medication,Dr. L. Khan,Male,20,130536,25,63,High Cost,Young Adult
+P460,Oncology,Therapy,Dr. T. Mehta,Female,74,91629,14,55,High Cost,Senior
+P461,Orthopedics,Therapy,Dr. T. Mehta,Male,77,65160,19,57,High Cost,Elderly
+P462,Pediatrics,Medication,Dr. M. Patel,Male,37,116645,5,61,High Cost,Adult
+P463,Pediatrics,Observation,Dr. L. Khan,Female,8,62388,25,57,High Cost,Child
+P464,Oncology,Therapy,Dr. T. Mehta,Female,53,53276,24,63,Low Cost,Middle-aged
+P465,Gastroenterology,Medication,Dr. T. Mehta,Male,77,64065,17,67,High Cost,Elderly
+P466,Neurology,Medication,Dr. R. Singh,Female,51,141789,27,85,High Cost,Middle-aged
+P467,Oncology,Observation,Dr. L. Khan,Female,16,97614,19,71,High Cost,Teenager
+P468,Cardiology,Medication,Dr. A. Sharma,Male,38,124599,21,69,High Cost,Adult
+P469,Pediatrics,Observation,Dr. T. Mehta,Female,83,197057,8,51,High Cost,Elderly
+P470,Neurology,Observation,Dr. A. Sharma,Male,78,77239,26,72,High Cost,Elderly
+P471,Neurology,Observation,Dr. A. Sharma,Male,2,143564,21,93,High Cost,Infant / Toddler
+P472,Gastroenterology,Surgery,Dr. L. Khan,Male,10,133744,18,89,High Cost,Child
+P473,Neurology,Observation,Dr. A. Sharma,Female,18,148500,24,90,High Cost,Teenager
+P474,Pediatrics,Therapy,Dr. R. Singh,Female,30,63879,19,50,High Cost,Adult
+P475,Neurology,Observation,Dr. M. Patel,Female,4,159992,24,59,High Cost,Infant / Toddler
+P476,Gastroenterology,Surgery,Dr. T. Mehta,Male,84,79986,22,52,High Cost,Elderly
+P477,Gastroenterology,Observation,Dr. T. Mehta,Male,62,113607,23,65,High Cost,Senior
+P478,Neurology,Medication,Dr. A. Sharma,Male,76,96135,17,61,High Cost,Elderly
+P479,Pediatrics,Observation,Dr. M. Patel,Female,20,126992,28,63,High Cost,Young Adult
+P480,Gastroenterology,Therapy,Dr. A. Sharma,Female,22,53692,10,85,Low Cost,Young Adult
+P481,Gastroenterology,Therapy,Dr. M. Patel,Male,29,119105,25,66,High Cost,Young Adult
+P482,Gastroenterology,Surgery,Dr. R. Singh,Male,20,105506,7,76,High Cost,Young Adult
+P483,Orthopedics,Therapy,Dr. M. Patel,Female,64,92371,16,59,High Cost,Senior
+P484,Gastroenterology,Medication,Dr. A. Sharma,Male,39,187247,7,86,High Cost,Adult
+P485,Pediatrics,Surgery,Dr. T. Mehta,Female,39,28079,24,86,Low Cost,Adult
+P486,Cardiology,Observation,Dr. L. Khan,Male,1,177157,4,91,High Cost,Infant / Toddler
+P487,Pediatrics,Medication,Dr. R. Singh,Female,35,121408,16,95,High Cost,Adult
+P488,Oncology,Surgery,Dr. R. Singh,Female,27,144857,18,91,High Cost,Young Adult
+P489,Oncology,Medication,Dr. A. Sharma,Female,42,53740,15,58,Low Cost,Adult
+P490,Orthopedics,Medication,Dr. R. Singh,Male,49,119942,23,81,High Cost,Middle-aged
+P491,Pediatrics,Surgery,Dr. T. Mehta,Female,19,34696,22,95,Low Cost,Teenager
+P492,Oncology,Surgery,Dr. L. Khan,Female,42,93235,3,83,High Cost,Adult
+P493,Oncology,Observation,Dr. T. Mehta,Male,46,41735,3,77,Low Cost,Middle-aged
+P494,Oncology,Observation,Dr. M. Patel,Male,5,125705,13,75,High Cost,Infant / Toddler
+P495,Orthopedics,Therapy,Dr. R. Singh,Male,76,110848,12,77,High Cost,Elderly
+P496,Gastroenterology,Medication,Dr. M. Patel,Female,38,173615,29,82,High Cost,Adult
+P497,Cardiology,Surgery,Dr. M. Patel,Male,62,145024,19,56,High Cost,Senior
+P498,Orthopedics,Therapy,Dr. L. Khan,Female,19,41531,13,76,Low Cost,Teenager
+P499,Orthopedics,Medication,Dr. R. Singh,Male,35,43125,12,94,Low Cost,Adult
+P500,Gastroenterology,Surgery,Dr. A. Sharma,Female,39,50824,18,50,Low Cost,Adult
