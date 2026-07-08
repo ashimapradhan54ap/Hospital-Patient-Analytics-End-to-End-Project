@@ -63,6 +63,8 @@ Open in Microsoft Excel. Data is in the `Patient_Data` sheet; KPIs, pivot charts
 ### 3. Power BI — `PowerBI_Dashboard.pbix`
 Open in Power BI Desktop (free download from Microsoft) to view the interactive report.
 
+![Power BI Dashboard](PowerbI_screenshot.png)
+
 ### 4. Python (Streamlit) — `Python_Dashboard/` 🔗 **[Live Dashboard](https://hospital-patient-analytics-end-to-end-project-ogw6wljrrqids4tp.streamlit.app/)**
 
 ---
