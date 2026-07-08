@@ -60,6 +60,8 @@ Open in any MySQL/SQL Server client. It creates the database and table, inserts 
 ### 2. Excel — `Excel_Dashboard.xlsx`
 Open in Microsoft Excel. Data is in the `Patient_Data` sheet; KPIs, pivot charts, and the summary dashboard are in the other sheets.
 
+![Excel Dashboard](Excel_Dasboard_screenshot.png)
+
 ### 3. Power BI — `PowerBI_Dashboard.pbix`
 Open in Power BI Desktop (free download from Microsoft) to view the interactive report.
 
