@@ -52,18 +52,16 @@ The dataset contains 500 synthetic patient records covering department, treatmen
 
 ## ▶️ How to Run Each Version
 
-### 1. SQL —  (SQL_Analysis.sql)
+### 1. SQL — `SQL_Analysis.sql`
 Open in any MySQL/SQL Server client. It creates the database and table, inserts all 500 records, and includes ready-to-run analysis queries for each KPI/chart.
 
-### 2. Excel —  (Excel_Dashboard.xlsx)
+### 2. Excel — `Excel_Dashboard.xlsx`
 Open in Microsoft Excel. Data is in the `Patient_Data` sheet; KPIs, pivot charts, and the summary dashboard are in the other sheets.
 
-### 3. Power BI —  (PowerBI_Dashboard.pbix)
+### 3. Power BI — `PowerBI_Dashboard.pbix`
 Open in Power BI Desktop (free download from Microsoft) to view the interactive report.
 
-###### 4. Python (Streamlit) — (Python_Dashboard)
-Contains `app.py`, `patients.csv`, and `requirements.txt`. To run it: install the libraries listed in `requirements.txt`, then run `app.py` using Streamlit to launch the interactive dashboard in your browser.
-
+### 4. Python (Streamlit) — `Python_Dashboard/`
 
 ## 🛠️ Tech Stack
 
