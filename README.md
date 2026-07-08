@@ -11,10 +11,10 @@ The dataset contains 500 synthetic patient records covering department, treatmen
 - [`SQL_Analysis.sql`](SQL_Analysis.sql)
 - [`Excel_Dashboard.xlsx`](Excel_Dashboard.xlsx)
 - [`PowerBI_Dashboard.pbix`](PowerBI_Dashboard.pbix)
-- ##### Python_Dashboard
-  - [`(Python_Dashboardapp.py`](Python_Dashboardapp.py)
-  - [`Python_Dashboardpatients.csv`](Python_Dashboardpatients.csv)
-  - [`Python_Dashboardrequirements.txt`](Python_Dashboardrequirements.txt)
+[`Python_Dashboard/`](Python_Dashboard)
+  - [`app.py`](Python_Dashboard/app.py)
+  - [`patients.csv`](Python_Dashboard/patients.csv)
+  - [`requirements.txt`](Python_Dashboard/requirements.txt)
 
 | File / Folder | Tool | Description |
 |---|---|---|
