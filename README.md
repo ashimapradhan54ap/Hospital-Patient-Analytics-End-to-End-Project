@@ -12,9 +12,9 @@ The dataset contains 500 synthetic patient records covering department, treatmen
 - [`Excel_Dashboard.xlsx`](Excel_Dashboard.xlsx)
 - [`PowerBI_Dashboard.pbix`](PowerBI_Dashboard.pbix)
 - ##### Python_Dashboard
-  - [`app.py`](Python_Dashboardapp.py)
-  - [`patients.csv`](Python_Dashboardpatients.csv)
-  - [`requirements.txt`](Python_Dashboardrequirements.txt)
+  - [`(Python_Dashboardapp.py`](Python_Dashboardapp.py)
+  - [`Python_Dashboardpatients.csv`](Python_Dashboardpatients.csv)
+  - [`Python_Dashboardrequirements.txt`](Python_Dashboardrequirements.txt)
 
 | File / Folder | Tool | Description |
 |---|---|---|
@@ -55,13 +55,13 @@ The dataset contains 500 synthetic patient records covering department, treatmen
 ### 1. SQL —  [`SQL_Analysis.sql`](SQL_Analysis.sql)
 Open in any MySQL/SQL Server client. It creates the database and table, inserts all 500 records, and includes ready-to-run analysis queries for each KPI/chart.
 
-### 2. Excel — `Excel_Dashboard.xlsx`
+### 2. Excel —  [`Excel_Dashboard.xlsx`](Excel_Dashboard.xlsx)
 Open in Microsoft Excel. Data is in the `Patient_Data` sheet; KPIs, pivot charts, and the summary dashboard are in the other sheets.
 
-### 3. Power BI — `PowerBI_Dashboard.pbix`
+### 3. Power BI —  [`PowerBI_Dashboard.pbix`](PowerBI_Dashboard.pbix)
 Open in Power BI Desktop (free download from Microsoft) to view the interactive report.
 
-### 4. Python (Streamlit) — `Python_Dashboard/`
+### 4. Python (Streamlit) —  [`(Python_Dashboardapp.py`](Python_Dashboardapp.py)   [`Python_Dashboardpatients.csv`](Python_Dashboardpatients.csv)   [`Python_Dashboardrequirements.txt`](Python_Dashboardrequirements.txt)
 
 ```bash
 # 1. Go into the Python_Dashboard folder
